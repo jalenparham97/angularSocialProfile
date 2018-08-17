@@ -2,7 +2,7 @@
 
 const userProfile = {
   template: `
-    <section>
+    <section class="profile__container">
 
       <div class="img"></div>
 
@@ -10,7 +10,7 @@ const userProfile = {
         <h1>{{ $ctrl.info.name }}</h1>
         <p>{{ $ctrl.info.contact }}</p>
         <p>{{ $ctrl.info.bio }}</p>
-        <button ng-click="$ctrl.location()">Update</button>
+        <button ng-click="$ctrl.location()">Edit Profile</button>
       </div>
 
     </section>

@@ -12,7 +12,7 @@ const editProfile = {
         <input ng-model="$ctrl.newInfo.contact" id="contact" placeholder="Enter Contact Info">
         <label for="bio">Bio</label>
         <textarea ng-model="$ctrl.newInfo.bio" id="bio" placeholder="Enter Bio"></textarea>
-        <button>Save</button>
+        <button>Update</button>
       </form>
 
     </section>
