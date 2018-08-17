@@ -1,11 +1,11 @@
 "use strict";
 const editProfile = {
   template: `
-    <section>
+    <section class="edit__container">
 
       <p>Use this form to update your profile.</p>
 
-      <form ng-submit="$ctrl.setUserProfileInfo($ctrl.newInfo)">
+      <form ng-submit="$ctrl.setUserProfileInfo($ctrl.newInfo)" class="form__container">
         <label for="name">Name</label>
         <input ng-model="$ctrl.newInfo.name" id="name" placeholder="Enter Name">
         <label for="contact">Contact</label>

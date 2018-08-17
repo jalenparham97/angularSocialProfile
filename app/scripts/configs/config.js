@@ -14,6 +14,6 @@ that takes the named route as a parameter.*/
             `
         })
         .otherwise({
-            redirectTo: "/profile"
+            redirectTo: "/home"
         })
     }])
