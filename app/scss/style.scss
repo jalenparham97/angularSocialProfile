@@ -103,7 +103,6 @@ body {
   background: #fbfbfb;
   margin: 70px auto;
   border-radius: 20px;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,16 +110,18 @@ body {
   & .img {
     height: 250px;
     background: $color-1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   & .info {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+    padding: 30px;
     
 
     & button {
-      // width: 88%;
       padding: 14px;
       font-size: 16px;
       background: $color-2;
@@ -143,6 +144,7 @@ body {
     & p:nth-child(3) {
       margin: 20px 0; 
       color: $color-2;
+      word-wrap: break-word;
     }
   }
 }

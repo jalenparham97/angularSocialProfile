@@ -69,17 +69,19 @@ body {
   background: #fbfbfb;
   margin: 70px auto;
   border-radius: 20px;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center; }
   .profile__container .img {
     height: 250px;
-    background: #1ECEFD; }
+    background: #1ECEFD;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; }
   .profile__container .info {
     margin-top: 30px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 30px; }
     .profile__container .info button {
       padding: 14px;
       font-size: 16px;
@@ -96,4 +98,5 @@ body {
       color: #D0D6DE; }
     .profile__container .info p:nth-child(3) {
       margin: 20px 0;
-      color: #505355; }
+      color: #505355;
+      word-wrap: break-word; }
